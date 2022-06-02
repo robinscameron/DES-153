@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_bRg';
+    src: url('berthold-akzidenz-grotesk-be-light-webfont.woff2') format('woff2'),
+         url('berthold-akzidenz-grotesk-be-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "berthold_akzidenz_grotesk_bRg", "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.nav-content {
+	text-decoration: none;
+}
+
+
+
+
+h2 {
+	font-size: 3.5vw;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+h3,
+h3 a {
+	font-family: "berthold_akzidenz_grotesk_bRg", "Arial", sans-serif;
+	font-size: 1.3vw;
+	line-height: 1.3;
+	font-weight: normal;
+    color: #fff;
+}
+
+h4 {
+	font-size: 1.75vw;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+p {
+	font-size: 1.7vw;
+	line-height: 1.5;
+}
+
+a {
+    color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+h3 a,
+p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.class-info {
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+    height: 100%;
+    padding: 2%;
+    background-color:SlateBlue;
+}
+
+
+.page-info {
+	padding: 1% 2% 5% 1%;
+}
+
+.assignments {
+	margin-left: 2%;
+}
+
+.assignment {
+	padding: 1% 1% 1% 0;
+	display: flex;
+}
+
+.spec {
+    padding-bottom: 1.6%
+}
+
+.nav-content,
+.page-info {
+	width: 60%;
+	margin-left: 30%;
+}
+
+
+
+
+#heading-tb {
+	padding-bottom: 1.6%;
+}
+
+.assignment:hover a {
+	color:orange;
+}
+
+.selected {
+	text-decoration: none;
+}
+
+.indent,
+p .indent {
+	text-indent: 0;
+	padding-left: 40px;
+	display: block;
+}
+
+
+.italic {
+	font: 
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	margin-top: 40px;
+}
+
+.nav p {
+	text-indent: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.
+
+#mobile {
+	display: none;
+}
+
+#quote {
+	margin: -0.8%;
+}
+
+@media only screen and (max-width : 900px) {
+
+	.hide-mobile {
+		display: none;
+	}
+	
+	h3,
+	h3 a {
+		font-size: 3.8vw;
+	}
+
+	p {
+		font-size: 4.8vw;
+	}
+
+	.assignments {
+		margin-left: 0;
+	}
+
+	.assignment {
+		padding: 2%;
+		flex-wrap: wrap;
+	}
+
+	.course-info {
+		position: inherit;
+		width: 100%;
+		flex-direction: row;
+		padding-bottom: 20%;
+	}
+
+	.nav-content,
+	.page-info {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.page-info {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+
+	.principle {
+		width: 100%;
+		padding-left: 12%;
+	}
+
+	.week {
+		display: none;
+	}
+
+	.date {
+		width: 25%;
+	}
+
+	.number {
+		width: 12%;
+		order: -2;
+	}
+
+	.title {
+		width: 63%;
+		order: -1;
+	}
+
+}
