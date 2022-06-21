@@ -82,6 +82,12 @@ a.image {
 	border-bottom:none;
 }
 
+a.assign {
+	color: orange;
+	border-bottom: orange 0.125em solid;
+
+}
+
 h3 a,
 p a {
 	text-decoration: none;
