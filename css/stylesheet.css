@@ -142,6 +142,16 @@ p {
 
 }
 
+.polcies
+{
+	background-color:SlateBlue;
+	padding: 50px 60px 50px 50px;
+  width:750px;
+  color: #fff;
+  
+  }
+
+
 .assignments {
 	margin-left: 2%;
 }
