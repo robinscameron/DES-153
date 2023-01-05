@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_bRg';
+    src: url('berthold-akzidenz-grotesk-be-light-webfont.woff2') format('woff2'),
+         url('berthold-akzidenz-grotesk-be-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "berthold_akzidenz_grotesk_bRg", "Arial", sans-serif;
+	font-weight: normal;
+}
+
+.nav-content {
+	text-decoration: none;
+}
+
+
+
+
+h1 {
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+h3,
+h3 a {
+	font-family: "berthold_akzidenz_grotesk_bRg", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: normal;
+    color: #fff;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+
+ul.no-bullets {
+	list-style-type: none;
+	padding: 0; 
+	margin: 1;
+	line-height: 1.4;
+  }
+
+p {
+	font-size: 20;
+	line-height: 1.5;
+}
+
+a {
+    color: #fff;
+	text-decoration: none;
+    border-bottom: white 0.125em solid;
+}
+
+a:hover {
+	color: #DEB818;
+	border-bottom: #DEB818 0.125em solid;
+}
+
+a.reading {
+	color: black;
+	border-bottom: black 0.125em solid;
+}
+
+a.image {
+	text-decoration: none;
+	border-bottom:none;
+}
+
+a.assign {
+	color: #DEB818;
+	border-bottom: #DEB818 0.125em solid;
+
+}
+
+
+
+h3 a,
+p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h5 { display:inline;
+	font-size:20px;
+	color: black;
+	text-decoration: none;
+    border-bottom: black 0.125em solid;
+}
+
+h6 {
+	display:inline;
+	font-size:18px;
+	color: #DEB818;
+	text-decoration: none;
+    border-bottom: #DEB818 0.125em solid;
+
+}
+
+p {
+	float: left;
+	width: 20px;
+	color:#DEB818
+  }
+  
+  p:before {
+	content: "★";
+	color:#DEB818
+  }
+
+
+.class-info {
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+    height: 100%;
+    padding: 2%;
+    background-color:#003C6C;
+}
+
+
+.page-info {
+
+	margin-left:0;
+
+
+}
+
+.polcies
+{
+	background-color:#003C6C;
+	padding: 50px 60px 50px 50px;
+  width:750px;
+  color: #fff;
+  
+  }
+
+
+.assignments {
+	margin-left: 2%;
+}
+
+.assignment {
+	padding: 1% 1% 1% 0;
+	display: flex;
+}
+
+.spec {
+    padding-bottom: 1.6%
+}
+
+.nav-content,
+.page-info {
+	width: 60%;
+	margin-left: 20%;
+}
+
+
+
+
+#heading-tb {
+	padding-bottom: 1.6%;
+}
+
+.assignment:hover a {
+	color:#DEB818;
+}
+
+
+
+
+.italic {
+	font: 
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	margin-top: 40px;
+}
+
+.nav p {
+	text-indent: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.
+
+#mobile {
+	display: none;
+}
+
+#quote {
+	margin: -0.8%;
+}
+
+@media only screen and (max-width : 900px) {
+
+	.hide-mobile {
+		display: none;
+	}
+	
+.spec {
+	font-size: 2.0vw;
+}
+
+	h3,
+	h3 a {
+		font-size: 2.8vw;
+	}
+
+	p {
+		font-size: 2.8vw;
+	}
+
+	
+
+	.course-info {
+		position: inherit;
+		width: 100%;
+		flex-direction: row;
+		padding-bottom: 20%;
+	}
+
+	.nav-content,
+	.page-info {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.assignments {
+		margin-left: 0;
+	}
+
+	.assignment {
+		padding: 2%;
+		flex-wrap: wrap;
+	}
+
+	.page-info {
+		padding-left: 20%;
+		padding-right: 2%;
+	}
+
+
+	.week {
+		display: none;
+	}
+
+
+}
